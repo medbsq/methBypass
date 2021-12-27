@@ -100,6 +100,22 @@ def done(out):
             out_file.write("\n")
             print("\n")
 
+def logo():
+    print(
+        """
+            \033[32m
+                           __  __    __                               
+           ____ ___  ___  / /_/ /_  / /_  __  ______  ____ ___________
+          / __ `__ \/ _ \/ __/ __ \/ __ \/ / / / __ \/ __ `/ ___/ ___/
+         / / / / / /  __/ /_/ / / / /_/ / /_/ / /_/ / /_/ (__  |__  ) 
+        /_/ /_/ /_/\___/\__/_/ /_/_.___/\__, / .___/\__,_/____/____/
+          github.com/medbsq/methBypass /____/_/  by MedBsq
+                                                                       
+            \033[0m
+        """
+
+    )
+
 
 def Main():
     parser = optparse.OptionParser("help:\n" + \
@@ -137,4 +153,5 @@ def Main():
 
 
 if __name__ == '__main__':
+    logo()
     Main()
