@@ -11,14 +11,13 @@ http methods fuzzer
           github.com/medbsq/methBypass /____/_/  by MedBsq
                                                                        
             
-        
-##Usage: 
-1 - python3 methby.py -u <url> -t <threads> -o <output_file>\
-2 - python3 methby.py -f <urls list> -t <threads> -o <output_file>
+**Usage:**
+1. python3 methby.py -u <url> -t <threads> -o <output_file>\
+2. python3 methby.py -f <urls list> -t <threads> -o <output_file>
 
-###Options:
-  -h, --help   show this help message and exit\
-  -f URL_FILE  spicify urls file\
-  -u URL       spicify url\
-  -t THREADS   spicify nybmer of threads\
-  -o OUTPUT    spicify output file\
+**Options:**
+  - -h, --help   show this help message and exit\
+  - -f  (url_file)  spicify urls file\
+  - -u  (url)        spicify url\
+  - -t  (threads)   spicify nybmer of threads\
+  - -o  (ouput)    spicify output file\
