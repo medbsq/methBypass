@@ -1,5 +1,6 @@
 # methby
-http methods fuzzer
+
+HTTP methods  bypass  
 
 
             
@@ -12,12 +13,16 @@ http methods fuzzer
                                                                        
             
 **Usage:**
-1. python3 methby.py -u <url> -t <threads> -o <output_file>\
+```
+1. python3 methby.py -u <url> -t <threads> -o <output_file>
 2. python3 methby.py -f <urls list> -t <threads> -o <output_file>
+```
 
 **Options:**
-  - -h, --help   show this help message and exit\
-  - -f  (url_file)  spicify urls file\
-  - -u  (url)        spicify url\
-  - -t  (threads)   spicify nybmer of threads\
-  - -o  (ouput)    spicify output file\
+```
+   -h, --help   show this help message and exit\
+   -f  (url_file)  spicify urls file\
+   -u  (url)        spicify url\
+   -t  (threads)   spicify nybmer of threads\
+   -o  (ouput)    spicify output file\
+```
